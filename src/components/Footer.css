@@ -1,0 +1,14 @@
+footer {
+    background-color: var(--footer-color);
+    border-top: 1px solid var(--footer-border-color);
+    clear: both;
+    display: block;
+    height: 50px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}

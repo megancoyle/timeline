@@ -1,0 +1,12 @@
+.timeline {
+    display: grid;
+    position: relative;
+    row-gap: .5rem;
+}
+
+.timeline-line {
+    /* the number of timeline lines and the grid height is created dynamically 
+    via inline styles in Timeline.js */
+    border-right: 1px solid var(--layout-line-color);
+    z-index: -1;
+}

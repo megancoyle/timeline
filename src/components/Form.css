@@ -1,0 +1,40 @@
+.form { 
+    display: flex;
+    flex-direction: column;
+}
+
+.form-actions {
+    padding-top: 20px;
+    border-top: 1px solid var(--form-line-color);
+    margin-top: 20px;
+}
+
+.form-button {
+    /* overriding material UI color */
+    background-color: var(--button-color) !important;
+}
+
+.form-input,
+.form-input-name {
+    background-color: var(--input-color);
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem 1rem;
+}
+
+.form-input {
+    font-size: 14px;
+}
+
+.form-input-name {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.form-label {
+    color: var(--modal-font-color);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    padding: 20px 0 10px 0;
+}

@@ -1,0 +1,22 @@
+* {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  --button-color: #f82b60;
+  --footer-color: #cfdfff;
+  --footer-border-color: #b5c4e2;
+  --form-line-color: #dadce0;
+  --input-color: #f1f3f4;
+  --layout-line-color: #dadce0;
+  --modal-font-color: #3c4043;
+  --primary-background-color: #FFFFFF;
+  --timeline-color: #0768f8;
+  --timeline-border-color: #023c93;
+  --timeline-font-color: #FFFFFF;
+  --timeline-hover-color: #2750ae;
+  --title-font-color: #3c4043;
+}

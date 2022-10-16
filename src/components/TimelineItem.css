@@ -1,0 +1,24 @@
+.timeline-item {
+    /* width and height of timeline items is dynamically set with inline 
+    styles in TimelineItem.js */
+    background-color: var(--timeline-color);
+    border: 1px solid var(--timeline-border-color);
+    border-radius: 3px;
+    color: var(--timeline-font-color);
+    cursor: pointer;
+    display: flex;
+    font-size: 15px;
+    justify-content: left;
+    overflow: hidden;
+    padding-top: 5px;
+    white-space: nowrap;
+}
+
+.timeline-item:hover {
+    background-color: var(--timeline-hover-color);
+}
+
+.timeline-item-name {
+    margin: 0 5px 0 10px;
+    overflow: hidden;
+}
